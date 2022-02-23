@@ -26,7 +26,7 @@ Installer was tested using AWS Lightsail Instances.
 
 ##### Run command:
 ```bash
-rm -f vpsphc && wget -O vpsphc "https://raw.githubusercontent.com/forphc/VPS-Autoscript/main/vpsphc" && chmod +x vpsphc && apt update && apt install screen -y && screen -S phc ./vpsphc
+rm -f vpsphc && wget -O vpsphc "https://raw.githubusercontent.com/darkrenz/VPS-Autoscript/main/vpsphc" && chmod +x vpsphc && apt update && apt install screen -y && screen -S phc ./vpsphc
 ```
 
 #### ***Note***
