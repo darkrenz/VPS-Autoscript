@@ -6,7 +6,7 @@ NIC=$(ip -4 route ls | grep default | grep -Po '(?<=dev )(\S+)' | head -1);
 SERVER=$(wget -4qO- ipinfo.io/org | cut -d' ' -f2-);
 REGION=$(wget -4qO- ipinfo.io/region | sed -e "s/ /-/g");
 DATE=$(date +%m-%d-%Y);
-GIST="https://gist.githubusercontent.com/forphc/16f95185e2647d361c6ee07d690765af/raw/"
+GIST="https://gist.github.com/darkrenz/2199350f4f19b151657512cec3380660/raw/"
 server_dir="/etc/openvpn/server"
 client_dir="/etc/openvpn/client"
 
